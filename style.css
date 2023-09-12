@@ -280,20 +280,22 @@ h2 {
 
 }
 
-.section-4{
+.section-4 {
     position: absolute;
     width: 100%;
     height: 176px;
     top: 110rem;
     background-color: #267be4;
 }
-#sec-4-text{
+
+#sec-4-text {
     padding: 26px 125px;
     font-size: 35px;
     letter-spacing: -1.8px;
 
 }
-.Careers-button{
+
+.Careers-button {
     background: #ffff;
     color: #000;
     margin: -21px 322px;
@@ -304,7 +306,8 @@ h2 {
     font-weight: 800;
     cursor: pointer;
 }
-.sec-3-pekka{
+
+.sec-3-pekka {
     position: relative;
     background-color: rgba(0, 0, 0, 0);
     height: 218px;
@@ -312,11 +315,13 @@ h2 {
     left: 69%;
     bottom: 153px;
 }
-.pekka-img{
+
+.pekka-img {
     height: 218px;
     width: 224px;
 }
-footer{
+
+footer {
     position: absolute;
     background: #000;
     width: 100%;
@@ -324,17 +329,100 @@ footer{
     top: 121rem;
 
 }
-.social-media{
+
+.social-media {
     display: flex;
+    justify-content: space-between;
     height: 14%;
-    width: 19%;
-    background: #ff0000;
+    width: 18%;
+    background: #000;
     position: absolute;
-    left: 11.5%;
-    top: 7%;
+    left: 12%;
+    top: 14%;
 }
-.text-footer{
+
+.text-footer {
     color: white;
-    font-family: Medium,Helvetica,Arial,sans-serif;
+    font-family: Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    left: 12%;
+    top: 8%;
+}
+
+.footer-contact-icons {
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.footer-img-div {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 328px;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    left: 63%;
+    top: 7%;
+
+}
+
+.footer-img {
+    height: 100%;
+    width: 157px;
+    cursor: pointer;
+}
+
+.footer-line {
+    position: absolute;
+    width: 75%;
+    height: .5px;
+    background-color: #80806f;
+    top: 28%;
+    left: 12%;
+}
+
+.footer-policy {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 23px;
+    width: 62%;
+    background: rgb(0, 0, 0);
+    top: 35%;
+    left: 12%;
+
+}
+
+p {
+    color: white;
+    font-family: Medium, Helvetica, Arial, sans-serif;
     font-size: 13px;
+}
+
+.footer-adress {
+    position: absolute;
+    letter-spacing: 1px;
+    width: 50%;
+    height: 80px;
+    background: rgb(0, 0, 0);
+    top: 44%;
+    left: 12%;
+
+}
+
+.adress {
+    color: rgb(99, 99, 99);
+    font-family: Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer-logo {
+    position: absolute;
+    left: 144%;
+    top: 47%;
+    width: 53px;
+    height: 43px;
 }
